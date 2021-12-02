@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+  namespace: dev
+data:
+  enabled: "true"
+  settings: |
+    backcolor=blue
+    font_size=14
